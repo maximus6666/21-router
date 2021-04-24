@@ -17,13 +17,13 @@ function App() {
     <div className="App">
       <Router>
         <header className="nav-header">
-            <NavLink className="nav-link" activeClassName="active-nav" to="/home">Home</NavLink>
+            <NavLink className="nav-link" activeClassName="active-nav" to="/21-router">Home</NavLink>
             <NavLink className="nav-link" activeClassName="active-nav" to="/posts">Posts</NavLink>
             <NavLink className="nav-link" activeClassName="active-nav" to="/gallery">Gallery</NavLink>
             <NavLink className="nav-link" activeClassName="active-nav" to="/contacts">Contacts</NavLink>
         </header>
           <Switch>
-            <Route exact path="/home">
+            <Route exact path="/21-router">
               <HomePage/>
             </Route>
             <Route exact path="/posts">
