@@ -1,4 +1,4 @@
-import Post from "../components/Post";
+import { Post } from "../components/Post";
 
 const ANAKIN_IMAGE = "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Anakin-Jedi.jpg/220px-Anakin-Jedi.jpg";
 
@@ -8,19 +8,19 @@ export default function PostPage() {
   return (
     <div className="night-mode">
       <Post author = {{
-            name: "Anakin Skywalker",
-            photo: ANAKIN_IMAGE,
-            nickname: "@dart_vader"
-         }}
+        name: "Anakin Skywalker",
+        photo: ANAKIN_IMAGE,
+        nickname: "@dart_vader"
+      }}
          content="WTF? Who is Ray? Why she is Skywalker? Luke...?"
          image={RAY_IMAGE}
          date={"26 февр."}
       />
       <Post author = {{
-            name: "Anakin Skywalker",
-            photo: ANAKIN_IMAGE,
-            nickname: "@dart_vader"
-         }}
+        name: "Anakin Skywalker",
+        photo: ANAKIN_IMAGE,
+        nickname: "@dart_vader"
+      }}
          content="WTF? Who is Ray? Why she is Skywalker? Luke...?"
          image={RAY_IMAGE}
          date={"26 февр."}
