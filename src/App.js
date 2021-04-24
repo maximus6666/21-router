@@ -4,7 +4,7 @@ import {
   Switch,
   Route,
   NavLink,
-
+  useRouteMatch,
 } from "react-router-dom";
 
 import HomePage from "./pages/HomePage.js";
@@ -13,20 +13,22 @@ import GalleryPage from "./pages/GalleryPage.js";
 import ContactsPage from "./pages/ContactsPage.js";
 
 function App() {
+  let { path } = useRouteMatch();
+
   return (
     <div className="App">
       <Router>
         <header className="nav-header">
-            <NavLink className="nav-link" activeClassName="active-nav" to="/21-router">Home</NavLink>
-            <NavLink className="nav-link" activeClassName="active-nav" to="/posts">Posts</NavLink>
+            <NavLink className="nav-link" activeClassName="active-nav" to={path}>Home</NavLink>
+            <NavLink className="nav-link" activeClassName="active-nav" to={`${path}/posts`}>Posts</NavLink>
             <NavLink className="nav-link" activeClassName="active-nav" to="/gallery">Gallery</NavLink>
             <NavLink className="nav-link" activeClassName="active-nav" to="/contacts">Contacts</NavLink>
         </header>
           <Switch>
-            <Route exact path="/21-router">
+            <Route exact path={path}>
               <HomePage/>
             </Route>
-            <Route exact path="/posts">
+            <Route exact path={`${path}/posts`}>
               <PostPage/>
             </Route>
             <Route exact path="/gallery">
