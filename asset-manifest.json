@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/21-router/static/css/main.75acba77.chunk.css",
+    "main.js": "/21-router/static/js/main.a58989a1.chunk.js",
+    "main.js.map": "/21-router/static/js/main.a58989a1.chunk.js.map",
+    "runtime-main.js": "/21-router/static/js/runtime-main.b654f078.js",
+    "runtime-main.js.map": "/21-router/static/js/runtime-main.b654f078.js.map",
+    "static/js/2.d231629b.chunk.js": "/21-router/static/js/2.d231629b.chunk.js",
+    "static/js/2.d231629b.chunk.js.map": "/21-router/static/js/2.d231629b.chunk.js.map",
+    "static/js/3.0baa6be7.chunk.js": "/21-router/static/js/3.0baa6be7.chunk.js",
+    "static/js/3.0baa6be7.chunk.js.map": "/21-router/static/js/3.0baa6be7.chunk.js.map",
+    "index.html": "/21-router/index.html",
+    "static/css/main.75acba77.chunk.css.map": "/21-router/static/css/main.75acba77.chunk.css.map",
+    "static/js/2.d231629b.chunk.js.LICENSE.txt": "/21-router/static/js/2.d231629b.chunk.js.LICENSE.txt",
+    "static/media/12_daniel_can_bc-207.44511b1d.jpg": "/21-router/static/media/12_daniel_can_bc-207.44511b1d.jpg",
+    "static/media/34599697_616021912083464_5888700754692145152_n.3183e2d0.jpg": "/21-router/static/media/34599697_616021912083464_5888700754692145152_n.3183e2d0.jpg",
+    "static/media/comment.dad8eb65.svg": "/21-router/static/media/comment.dad8eb65.svg",
+    "static/media/d41586-020-01390-w_17974388.e8adc27b.jpg": "/21-router/static/media/d41586-020-01390-w_17974388.e8adc27b.jpg",
+    "static/media/down-chevron.8bf5daa8.svg": "/21-router/static/media/down-chevron.8bf5daa8.svg",
+    "static/media/heart.0bbdf847.svg": "/21-router/static/media/heart.0bbdf847.svg",
+    "static/media/logo.6ce24c58.svg": "/21-router/static/media/logo.6ce24c58.svg",
+    "static/media/male-user.a3d9eecd.svg": "/21-router/static/media/male-user.a3d9eecd.svg",
+    "static/media/repost.9472069f.svg": "/21-router/static/media/repost.9472069f.svg",
+    "static/media/share.83c76f3e.svg": "/21-router/static/media/share.83c76f3e.svg",
+    "static/media/tour_1465_03_51_2.08fdb324.jpg": "/21-router/static/media/tour_1465_03_51_2.08fdb324.jpg",
+    "static/media/verified.8c8b43f3.svg": "/21-router/static/media/verified.8c8b43f3.svg",
+    "static/media/woman-avatar.951d669f.svg": "/21-router/static/media/woman-avatar.951d669f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b654f078.js",
+    "static/js/2.d231629b.chunk.js",
+    "static/css/main.75acba77.chunk.css",
+    "static/js/main.a58989a1.chunk.js"
+  ]
+}
